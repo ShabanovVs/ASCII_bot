@@ -26,6 +26,7 @@ def spam_test(req, message):
 
     if flag:
         time.sleep(1)
+        #1
         print(f'[WARNING] Too many reqests SPAM_USER: {message.from_user.first_name}')
 
 
